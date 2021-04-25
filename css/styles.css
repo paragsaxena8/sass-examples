@@ -1,1 +1,44 @@
-body{font:100% Arial,sans-serif;color:#007fff}*{-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0}nav ul{margin:0;padding:0;list-style:none}nav li{display:inline-block}nav a{display:block;padding:2rem;text-decoration:none}.box{-webkit-transform:rotate(45deg);transform:rotate(45deg)}.ThreeDBox{-webkit-transform:rotate(360deg);transform:rotate(360deg)}.success,.danger{border:0.2rem solid #ddd;padding:0.8125rem;color:#444}.success{border-color:green}.danger{border-color:crimson}
+body {
+  font: 100% Arial, sans-serif;
+  color: #007fff;
+}
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 2rem;
+  text-decoration: none;
+}
+.box {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.ThreeDBox {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.success,
+.danger {
+  border: 0.2rem solid #ddd;
+  padding: 0.8125rem;
+  color: #444;
+}
+.success {
+  border-color: green;
+}
+.danger {
+  border-color: crimson;
+}
